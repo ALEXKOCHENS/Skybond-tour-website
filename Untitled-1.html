@@ -1,0 +1,109 @@
+    <div class="background-image">
+        <img src="bb.jpg" alt="this is a background image">
+    </div>
+
+    .text-container {
+  background-image: url('your-image.jpg'); /* Replace with your image path */
+  background-size: cover;                 /* Cover entire container */
+  background-position: center;            /* Center the image */
+  background-repeat: no-repeat;           /* Don't repeat */
+  padding: 2rem;                          /* Add some padding for readability */
+  color: white;                           /* Optional: Make text stand out */
+}
+
+
+footer{
+    background-color: #222;
+    color: #eee;
+    padding: 60px;
+    font-family: Arial, sans-serif;
+    display: block;
+}
+.fcontact{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    gap: 70px;
+}
+
+.fcolumn {
+    flex: 1 1 200px;
+    min-width: 2px;
+}
+
+.fcolumn h3,
+.fcolumn h4,
+.fcolumn h5 { 
+
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.fcolumn-links a{
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.fcolumn a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+}
+
+.footer-bottom a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    color: #fff;
+}.fsocialmedia{
+    display: block;
+    text-decoration: none;
+}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 columns */
+      gap: 10px;
+    }
+
+    .image-grid img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-grid">
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+    <img src="image3.jpg" alt="Image 3">
+    <img src="image4.jpg" alt="Image 4">
+    <!-- Add more images as needed -->
+  </div>
+</body>
+</html>

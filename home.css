@@ -1,0 +1,511 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    background-color: rgb(62, 209, 209);
+    
+
+}
+.header-text{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    position: absolute;
+    margin-left: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #ab5a5a;
+
+}
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+nav{
+    float: right;
+    
+}
+
+nav ul{
+    padding: 10px;
+    list-style: none;
+    margin-right: 200px;
+}
+nav li{
+    display: inline-block;
+    padding-top: 70px;
+    padding-bottom: 70px
+
+}
+nav a{
+    text-decoration: none;
+    font-size: 35px;
+    font-family:  sans-serif;
+}
+
+nav a:hover{
+    color: rgb(6, 8, 7);
+}
+ul a{
+    margin-right: 80px;
+}
+
+/* background image*/
+
+.container img{
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+/* section for backgroung text*/
+.info{
+    position: relative;
+}
+
+img{
+    height: 70vh;
+    width: 100%;
+}
+
+.text{
+    position: absolute;
+    top: 15px;
+    padding: 20px;
+    margin-left: 200px;
+}
+
+
+.link{
+    margin-left: 1200px;
+    display: flex;
+    padding: 20px;
+    gap: 40px;
+}
+.link a:hover{
+    color: rgb(8, 77, 42);
+}
+
+.link a{
+    font-size: 38px;
+    text-decoration: none;
+    color: rgb(241, 247, 245);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+
+#ss{
+    border-radius: 10px;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-right: 20px;
+    color: rgb(119, 120, 168);
+}
+
+#pp{
+    border-radius: 10px;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color:rgb(119, 120, 168);
+}
+
+.text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+    font-size: 60px;
+}
+.text h2{
+    margin-left: 30%;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #2a2c2c;
+    margin-left: 30%;
+}
+
+
+
+/*Footer section*/
+
+.footer{
+    font-family: sans-serif;
+    background-color:rgb(13, 15, 13);
+    color: lavender;
+    display: flex;
+    margin: auto;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.fcolumn-links{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 150px;
+
+}
+
+.fcolumn-links ul{
+    list-style: none;
+}
+.fcolumn-links a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+}
+
+
+.fcolumn-links a:hover{
+    color: blue;
+}
+.fcolumn-contact{
+    padding-left: 150px;
+}
+.fcolumn-socialmedia{
+    padding-left: 60px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.fcolumn-socialmedia h6{
+    font-size: 15px;
+}
+
+.fcolumn-socialmedia a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: #ccc;
+
+}
+
+.fcolumn-socialmedia a:hover{
+    color: aquamarine;
+}
+.fcolumn-info{
+    padding-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+/* bottom of the page*/
+
+.bottom{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: rgb(20, 141, 9);
+    text-align: center;
+    padding: 20px;
+}
+
+
+/*This is a section about skybond tours*/
+
+.about {
+    background: #90a7a3;
+    padding: 90px 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+
+}
+
+.about h2, .about h3,.about h4 {
+    color: #a423a0;
+    text-align: left;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.about p, .about ul{
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 1.6;
+    color: #555;
+}
+
+.about ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about ul li {
+    margin-bottom: 8px;
+}
+
+.backtohome{
+    text-align: center;
+    background-color: antiquewhite;
+    padding-bottom: 60px;
+    padding-top: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.backtohome button{
+    font-size: 30px;
+    color: #a370b2;
+    border-radius: 80px;
+}
+
+/* Contact information*/
+
+.cylinder{
+    padding: 40px 20px;
+    background-color: #ccc;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.cylinder button{
+    float: right;
+    margin-right: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cylinder button:hover{
+    color: rgb(28, 7, 59);
+}
+
+button{
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 5px;
+    color: rgb(10, 105, 105);
+}
+
+.cylinder h2{
+    margin-left: 250px;
+    
+}
+
+.contact {
+    background-color: #e7d9ea;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cylinder h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-bottom: 66px;
+    color: #333;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-right: 70px;
+    gap: 30px;
+    font-size: 25px;
+}
+
+.contact-info div {
+    flex: 1 1 40%;
+    color: #555;
+}
+
+.contact-form {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-form button {
+    background-color: #0077cc;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #005fa3;
+}
+
+
+.marquee strong{
+    background-color: #e7d9ea;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(12, 117, 144);
+    padding-top: 40px;
+}
+
+
+/* this is a section for destinations*/
+
+
+.destinations{
+    background-color: #90a7a3;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.destinations h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.destinations p{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+}
+.rrr{
+    text-align: right 50px;
+}
+
+.rrr button{
+    color: #0e215a;
+    width: 100px;
+    border-radius: 10px;
+    padding: 7px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rrr button:hover{
+    color: #0077cc;
+}
+
+/* Card styling*/
+
+.card-container{
+    background-color: cornsilk;
+    padding-top: 40px; /* spacing at the top*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 500px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 15px;
+    
+}
+
+
+.card-info{
+    text-align: center;
+    padding: 8px;
+}
+
+/* Blog post section!*/
+
+
+.blog-post {
+    padding:40px 100px; 
+    background-color: #7ee5e5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 90px;
+    margin-left: 90px;
+    border-radius: 20px;
+}
+
+.blog-container{
+
+    color: #4e4d4c;
+    font-size: 22px;
+    padding: 6px;
+}
+
+.blog-post a{
+    text-decoration: none;
+    color: rgb(61, 47, 212);
+}
+
+
+/*Registration form design*/
+
+
+.registration-form {
+    padding: 40px 40px;
+    background: #ffffff;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #7ee5e5;
+    padding: 45px;
+
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input,
+select {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius:20px; 
+    font-size: 16px;
+    width: 100%;
+}
+
+button {
+    background-color: #bec8cf;
+    color: rgb(45, 33, 214);
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+
+
+
+
